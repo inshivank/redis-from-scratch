@@ -1,1 +1,5 @@
-# Entry point for the Redis clone server will go here.
+from src import server
+
+
+if __name__ == "__main__":
+    server.start()
